@@ -1,0 +1,9 @@
+import numpy as np
+
+a = np.array([
+    [2,3,4],
+    [4,5,6]
+])
+
+print(np.sum(a,axis = 0))
+print(np.sum(a,axis = 1))
